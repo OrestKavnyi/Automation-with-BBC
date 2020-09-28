@@ -16,7 +16,7 @@ namespace UnitTestProject.Hooks
             WebDriver.Driver.Manage().Window.Maximize();
             WebDriver.Driver.Navigate().GoToUrl(GENERATOR_URL);
             Wait.ImplicitlyWait(20);
-            DataGenerator.GenerateData();
+            LoremData.GenerateData();
             CleanUp();
         }
         private static void CleanUp()

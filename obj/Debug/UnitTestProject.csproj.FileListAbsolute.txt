@@ -70,3 +70,6 @@ D:\BBC\obj\Debug\UnitTestProject.csproj.CoreCompileInputs.cache
 D:\BBC\obj\Debug\UnitTestProject.csproj.CopyComplete
 D:\BBC\obj\Debug\UnitTestProject.dll
 D:\BBC\obj\Debug\UnitTestProject.pdb
+D:\BBC\bin\Debug\EPPlus.dll
+D:\BBC\bin\Debug\System.ComponentModel.Annotations.dll
+D:\BBC\bin\Debug\EPPlus.xml

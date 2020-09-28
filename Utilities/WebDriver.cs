@@ -4,7 +4,7 @@ using OpenQA.Selenium.Chrome;
 
 namespace UnitTestProject.Utilities
 {
-    public static class WebDriver
+    public static class WebDriver //Singleton (also not a fully correct version as we try to prevent instantiating of other class)
     {
         private static IWebDriver driver;
         public static IWebDriver Driver

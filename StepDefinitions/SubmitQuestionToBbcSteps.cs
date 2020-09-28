@@ -53,7 +53,9 @@ namespace UnitTestProject.StepDefinitions
         [When(@"i submit my question '(.*)'")]
         public void WhenISubmitMyQuestion(string testCase)
         {
-            var testData = DataGenerator.GetTestData(testCase);
+            IData data = new ExcelAdapter(new ExcelData());
+            var testData = data.GetTestData(testCase);
+            //var testData = DataGenerator.GetTestData(testCase);
             new ShareWithBbcNewsPage().Form.FillForm(testData);
 
             message.ErrorMessages = Wait.WaitForElementsToBeVisible(new ShareWithBbcNewsPage().ErrorMessages, 10);
